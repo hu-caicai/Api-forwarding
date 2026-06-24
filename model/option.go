@@ -65,7 +65,46 @@ func InitOptionMap() {
 	common.OptionMap["SMTPSSLEnabled"] = strconv.FormatBool(common.SMTPSSLEnabled)
 	common.OptionMap["SMTPForceAuthLogin"] = strconv.FormatBool(common.SMTPForceAuthLogin)
 	common.OptionMap["Notice"] = ""
-	common.OptionMap["About"] = ""
+	common.OptionMap["About"] = `<div style="max-width:900px;margin:0 auto;padding:20px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif">
+<style>
+  .support-banner{display:flex;align-items:center;gap:12px;background:linear-gradient(135deg,#e8f4ff,#f0f8ff);border:1px solid #b3d8ff;border-radius:12px;padding:16px 20px;margin-bottom:32px}
+  .support-banner-icon{width:38px;height:38px}
+  .support-banner-title{font-size:16px;font-weight:600;color:#1a1a1a;margin:0}
+  .support-banner-desc{font-size:14px;color:#666;margin:4px 0 0}
+  .section-label{font-size:13px;color:#999;text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;display:block}
+  .page-title{font-size:32px;font-weight:700;color:#1a1a1a;margin:0 0 12px}
+  .page-desc{font-size:16px;color:#666;margin:0 0 32px}
+  .contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-bottom:32px}
+  .contact-card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:20px;transition:box-shadow .2s}
+  .card-center{display:flex;flex-direction:column;align-items:center}
+  .card-center .card-row{width:fit-content;width:-moz-fit-content}
+  .contact-card:hover{box-shadow:0 4px 12px rgba(0,0,0,.08)}
+  .card-compact{padding:12px 20px}
+  .card-row{display:flex;align-items:center;gap:14px}
+  .card-icon{width:36px;height:36px;flex-shrink:0}
+  .card-body{flex:1;min-width:0}
+  .card-title{font-size:15px;font-weight:600;margin:0 0 2px;color:#1a1a1a}
+  .card-value{font-size:14px;font-weight:500;color:#0084FF;margin:0}
+  .card-value-muted{color:#999}
+  .card-btn{display:inline-block;margin-top:12px;padding:8px 20px;background:linear-gradient(135deg,#53ACFF,#0084FF);color:#fff;border:none;border-radius:8px;font-size:14px;cursor:pointer;text-decoration:none}
+  .qr-section{margin-top:12px;text-align:center}
+  .qr-section svg{width:120px;height:120px;border-radius:8px}
+  .footer-text{text-align:center;font-size:13px;color:#999;margin-top:40px;padding-top:16px;border-top:1px solid #e5e7eb}
+  @media (prefers-color-scheme:dark){.support-banner{background:linear-gradient(135deg,#1a2a3a,#1e293b);border-color:#334155}.support-banner-title{color:#e2e8f0}.support-banner-desc{color:#94a3b8}.contact-card{background:#1e293b;border-color:#334155}.card-title{color:#e2e8f0}.page-title{color:#f1f5f9}.footer-text{border-color:#334155}}
+</style>
+<h1 class="page-title">客户支持</h1>
+<p class="page-desc">我们随时为您提供帮助。请选择以下任一方式与我们联系。</p>
+<div class="contact-grid">
+  <div class="contact-card card-compact card-center">
+    <div class="card-row"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="#0084FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 7l-10 7L2 7"/></svg><div class="card-body"><p class="card-title">邮件支持</p><p class="card-value">codemonkey2026@163.com</p></div></div>
+  </div>
+  <div class="contact-card card-compact card-center">
+    <div class="card-row"><svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="#0084FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><div class="card-body"><p class="card-title">在线时间</p><p class="card-value card-value-muted">周一至周日 10:00-24:00</p></div></div>
+  </div>
+  <div class="contact-card card-center"><div style="text-align:center"><p class="card-title">QQ客服</p><p class="card-value card-value-muted">扫描二维码联系客服</p></div><div class="qr-section"><svg width="120" height="120" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="140" height="140" rx="8" fill="#E5E7EB"/><rect x="20" y="20" width="100" height="100" rx="4" fill="#D1D5DB"/><rect x="28" y="28" width="36" height="36" rx="3" fill="#9CA3AF"/><rect x="76" y="28" width="36" height="36" rx="3" fill="#9CA3AF"/><rect x="28" y="76" width="36" height="36" rx="3" fill="#9CA3AF"/><rect x="76" y="76" width="36" height="36" rx="3" fill="#9CA3AF"/><text x="70" y="128" text-anchor="middle" fill="#6B7280" font-size="10">占位图</text></svg></div></div>
+  <div class="contact-card card-center"><div style="text-align:center"><p class="card-title">客服二维码</p><p class="card-value card-value-muted">扫描二维码联系客服</p></div><div class="qr-section"><svg width="120" height="120" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="140" height="140" rx="8" fill="#E5E7EB"/><rect x="20" y="20" width="100" height="100" rx="4" fill="#D1D5DB"/><rect x="28" y="28" width="36" height="36" rx="3" fill="#9CA3AF"/><rect x="76" y="28" width="36" height="36" rx="3" fill="#9CA3AF"/><rect x="28" y="76" width="36" height="36" rx="3" fill="#9CA3AF"/><rect x="76" y="76" width="36" height="36" rx="3" fill="#9CA3AF"/><text x="70" y="128" text-anchor="middle" fill="#6B7280" font-size="10">占位图</text></svg></div></div>
+</div>
+`
 	common.OptionMap["HomePageContent"] = ""
 	common.OptionMap["Footer"] = common.Footer
 	common.OptionMap["SystemName"] = common.SystemName
