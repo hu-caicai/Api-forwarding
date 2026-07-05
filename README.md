@@ -2,7 +2,7 @@
 
 ![new-api](/web/default/public/logo.png)
 
-# New API
+# Code Monkey
 
 🍥 **Next-Generation LLM Gateway and AI Asset Management System**
 
@@ -38,7 +38,7 @@
     <img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=539ac4217e69431684ad4a0bab768811&claim_uid=tbFPfKIDHpc4TzR" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" />
   </a><!--
   --><a href="https://www.producthunt.com/products/new-api/launches/new-api?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-new-api" target="_blank" rel="noopener noreferrer">
-    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1047693&theme=light&t=1769577875005" alt="New API - All-in-one AI asset management gateway. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" />
+    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1047693&theme=light&t=1769577875005" alt="Code Monkey - All-in-one AI asset management gateway. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" />
   </a>
 </p>
 
@@ -422,7 +422,7 @@ docker run --name new-api -d --restart always \
 | Project | Description |
 |------|------|
 | [new-api-key-tool](https://github.com/Calcium-Ion/new-api-key-tool) | Key quota query tool |
-| [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | New API high-performance optimized version |
+| [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | Code Monkey high-performance optimized version |
 
 ---
 
@@ -453,7 +453,7 @@ Welcome all forms of contribution!
 This project is licensed under the [GNU Affero General Public License v3.0 (AGPLv3)](./LICENSE).
 
 Additional terms under AGPLv3 Section 7 apply. Modified versions must preserve
-the author attribution notice `Frontend design and development by New API
+the author attribution notice `Frontend design and development by Code Monkey
 contributors.` in the appropriate legal notices and in any prominent about,
 legal, footer, or attribution location presented by the user interface.
 
@@ -478,7 +478,7 @@ If your organization's policies do not permit the use of AGPLv3-licensed softwar
 
 <div align="center">
 
-### 💖 Thank you for using New API
+### 💖 Thank you for using Code Monkey
 
 If this project is helpful to you, welcome to give us a ⭐️ Star！
 

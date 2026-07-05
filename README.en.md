@@ -2,7 +2,7 @@
 
 ![new-api](/web/default/public/logo.png)
 
-# New API
+# Code Monkey
 
 🍥 **Next-Generation Large Model Gateway and AI Asset Management System**
 
@@ -414,7 +414,7 @@ docker run --name new-api -d --restart always \
 | Project | Description |
 |------|------|
 | [new-api-key-tool](https://github.com/Calcium-Ion/new-api-key-tool) | Key quota query tool |
-| [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | New API high-performance optimized version |
+| [new-api-horizon](https://github.com/Calcium-Ion/new-api-horizon) | Code Monkey high-performance optimized version |
 
 ---
 
@@ -452,7 +452,7 @@ Welcome all forms of contribution!
 
 <div align="center">
 
-### 💖 Thank you for using New API
+### 💖 Thank you for using Code Monkey
 
 If this project is helpful to you, welcome to give us a ⭐️ Star！
 

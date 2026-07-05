@@ -59,7 +59,7 @@ export async function getApiKey(id: number): Promise<ApiResponse<ApiKey>> {
   return res.data
 }
 
-// Create a new API key
+// Create a Code Monkey key
 export async function createApiKey(
   data: ApiKeyFormData
 ): Promise<ApiResponse<ApiKey>> {

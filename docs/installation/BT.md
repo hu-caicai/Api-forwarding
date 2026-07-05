@@ -1,6 +1,6 @@
 # 宝塔面板部署教程
 
-本文档提供使用宝塔面板 Docker 功能部署 New API 的图文教程。
+本文档提供使用宝塔面板 Docker 功能部署 Code Monkey 的图文教程。
 
 > 📖 官方文档：[宝塔面板部署](https://docs.newapi.pro/zh/docs/installation/deployment-methods/bt-docker-installation)
 
@@ -32,7 +32,7 @@
 
 ***
 
-## 步骤三：安装 New API
+## 步骤三：安装 Code Monkey
 
 ### 方法一：使用宝塔应用商店（推荐）
 
