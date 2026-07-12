@@ -1,16 +1,16 @@
-
 services:
-  code-monkey:
-    image: hu-caicai/api-forwarding:latest
-    container_name: Api-forwarding
+  new-api:
+    image: calciumion/new-api:latest
+    container_name: new-api
     restart: always
     command: --log-dir /app/logs
     ports:
-      - '3000:3000'
+      - '127.0.0.1:3000:3000'
     volumes:
       - ./data:/data
       - ./logs:/app/logs
     environment:
+      - SQL_DSN=postgresql://postgres:gdss@postgreSQL:5432/newapi
       - REDIS_CONN_STRING=redis://redis:6379
       - TZ=Asia/Shanghai
       - ERROR_LOG_ENABLED=true # 是否启用错误日志记录
